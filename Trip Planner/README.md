@@ -19,13 +19,13 @@ Central Park,06:00,23:00,1
 To run the program, execute the following command in the terminal:
 
 ```
-./trip_planner [path/to/csv/file.csv] [duration]
+./trip_planner [path/to/csv/file.csv]
 ```
 
-For example, to plan a trip with a duration of 480 minutes (8 hours) using the example CSV file above, you would run the following command:
+For example, to plan a trip using the example CSV file above, you would run the following command:
 
 ```
-./trip_planner places.csv 480
+./trip_planner places.csv
 ```
 
 The program will output a list of the places to visit in order, along with the arrival and departure times:
